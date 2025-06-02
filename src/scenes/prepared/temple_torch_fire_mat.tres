@@ -63,9 +63,9 @@ fill_to = Vector2(0.5, 0)
 [resource]
 render_priority = 0
 shader = SubResource("Shader_42o7g")
+shader_parameter/noise_texture = ExtResource("1_vssq8")
+shader_parameter/texture_mask = SubResource("GradientTexture2D_717dp")
 shader_parameter/emission_intensity = 1.0
 shader_parameter/time_scale = 2.0
 shader_parameter/texture_scale = Vector2(0.7, 0.7)
 shader_parameter/edge_softness = 0.161
-shader_parameter/noise_texture = ExtResource("1_vssq8")
-shader_parameter/texture_mask = SubResource("GradientTexture2D_717dp")
